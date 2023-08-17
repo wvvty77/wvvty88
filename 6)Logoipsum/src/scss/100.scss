@@ -1,0 +1,39 @@
+.index {
+  &__content {
+    row-gap: 30px;
+    &-title {
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 50px;
+      line-height: 57px;
+      /* identical to box height, or 114% */
+
+      letter-spacing: -1.56316px;
+      padding-bottom: 20px;
+    }
+    &-text {
+      font-family: Mulish;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 30px;
+      /* or 150% */
+
+      letter-spacing: -0.625263px;
+      //   width: 392px;
+      padding-bottom: 20px;
+      color: #696871;
+    }
+    &-link {
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 17px;
+      line-height: 22px;
+      letter-spacing: -0.531474px;
+
+      color: #5454d4;
+    }
+  }
+}
